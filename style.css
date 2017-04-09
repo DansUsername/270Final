@@ -1,0 +1,208 @@
+/*description:defines font so that a non-web-safe font can be used*/
+@font-face {
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:100;
+    src:local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+*{
+    text-decoration:none;
+    color:#000000;
+    font-family:Lato;
+}
+/*description:defines big uppercase font*/
+.big{
+    text-align:center;
+    font-weight:100;
+    text-transform:uppercase;
+    line-height:30px;
+}
+/*description:defines small uppercase font*/
+.little{
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:2px;
+}
+/*description:defines appearance of fine print text*/
+.fine{
+    text-transform:uppercase;
+    font-size:9px;
+    letter-spacing:2px;
+}
+/*description:centers content*/
+.center_content{
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+/*description:puts content on right*/
+.right{
+    text-align:right;
+}
+/*description:sets a reasonable default line-spacing*/
+.line_spacing{
+    line-height:30px;
+}
+/*description:affects lines in chat posts*/
+.align_left{
+    text-align:left;
+}
+/*description:makes elements inline*/
+.inline{
+    display:inline-block;
+}
+/*description:makes space on top of an item*/
+.margin_top{
+    margin-top:30px;
+}
+/*description:allows the user to choose background-color property in tumblr appearance editor*/
+body{
+    background-color:#f5f5f5;
+}
+/*description:defines title font*/
+.title{
+    color:#000000;
+    letter-spacing:17px;
+    font-size:30px;
+    line-height:50px;
+}
+.description{
+    text-align:center;
+}
+/*description:affects description appearance*/
+#description{
+    /*description:defines description font*/
+    color:#dddddd;
+    /*description:defines location and size*/
+    width:33%;
+    margin:auto;
+    padding-bottom:20px;
+}
+/*description:affects appearance of header image*/
+#header_image{
+    /*description:defines size of header image*/
+    width:100%;
+    /*description:places lines on top and bottom of image*/
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:#cccccc;
+}
+/*description:centers the page link*/
+.navigation{
+    /*description:positions page links*/
+    width:100%;
+    height:50px;
+    /*explanation:"justify-content:center;" and "align-items:center;" put a flexible container's contents in the center*/
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    /*description:defines color of the section*/
+    background-color:#ffffff;
+    /*description:displays border around the section*/
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-color:#aaaaaa;
+    border-width:1px;
+    /*description:defines appearance of the text*/
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:10px;
+    line-height:20px;
+    /*description:allows horizontal scrolling*/
+    overflow:auto;
+    white-space:nowrap;
+}
+/*description:ensures that the links have space*/
+.navigation a{
+    /*description:makes horizontal scrolling*/
+    display:inline-block;
+    padding:14px;
+}
+/*description:makes hovered link darken*/
+.navigation a:hover {
+    background-color:#eeeeee;
+}
+/*description:hides scrollbar*/
+.navigation::-webkit-scrollbar { 
+    display: none; 
+}
+/*description:defines block background-color*/
+div.block{
+    background-color:#ffffff;
+}
+/*description:defines attributes about individual blocks*/
+.block{
+    /*description:places content in the middle of each block*/
+    padding:25px;
+    /*description:defines appearance of border around each block*/
+    border-style:solid;
+    border-width:1px;
+    border-color:#cccccc;
+    /*description:defines space outside of .block borders*/
+    /*bug:if "min-width:300px;" then the width fits on mobile, but not on a narrow desktop window*/
+    max-width:750px;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+/*description:defines appearance for titles of all blocks*/
+.block_title{
+    letter-spacing:6px;
+}
+/*description:centers all the content of each block but not the title or block information*/
+.media{
+    text-align:center;
+    margin-bottom:25px;
+}
+/*description:ensures that iFrame content does not overflow*/
+.block img, iframe, object, embed {
+    max-width:100%;
+    max-height:auto;
+}
+/*description:affects paragraphs in text blocks*/
+.paragraph{
+    text-align:left;
+    line-height:25px;
+}
+/*descriptio:defines appearance of link block links*/
+.link_button{
+    border-color:#cccccc;
+    border-style:solid;
+    border-width:1px;
+    padding:10px;
+    display:inline-block;
+    background-color:{color:Button Background};
+    max-width:100%;
+}
+/*description:defines appearance of large footer image*/
+#avatar_large{
+    /*description:centers the footer image*/
+    display:block;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    /*description:defnes border around footer image*/
+    border-style:solid;
+    border-width:1px;
+    border-color:#cccccc;
+	/*description:adjusts size*/
+    width:200px;
+}
+/*description:defines appearance of small footer image*/
+#avatar_small{
+    /*description:centers the footer image*/
+    display:block;
+    margin:auto 10px;
+    margin-bottom:35px;
+    /*description:defnes border around footer image*/
+    border-style:solid;
+    border-width:1px;
+    border-color:#cccccc;
+    /*description:adjusts size*/
+    width:25px;
+}
+/*description:makes avatar picture circle*/
+.circle{
+    border-radius:50%;
+}
