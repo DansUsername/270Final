@@ -173,7 +173,7 @@ div.block{
     border-width:1px;
     padding:10px;
     display:inline-block;
-    background-color:{color:Button Background};
+    background-color:#ffffff;
     max-width:100%;
 }
 /*description:defines appearance of all form elements*/
