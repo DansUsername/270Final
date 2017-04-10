@@ -176,6 +176,10 @@ div.block{
     background-color:{color:Button Background};
     max-width:100%;
 }
+/*description:defines appearance of all form elements*/
+form{
+	text-align:left;
+}
 /*description:defines appearance of large footer image*/
 #avatar_large{
     /*description:centers the footer image*/
