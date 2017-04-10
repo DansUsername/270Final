@@ -1,4 +1,4 @@
 <?php
-	echo "I wish my brother George was here, " . $_GET["location"];
-	echo "A scarecrow for caterpillars, " . $_GET["vehicle"];
+	echo "The location is " . $_GET["location"];
+	echo "The vehicle is " . $_GET["vehicle"];
 ?>

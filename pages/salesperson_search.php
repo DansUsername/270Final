@@ -17,23 +17,23 @@
 	<p class="block_title big">Salesperson Search</p>
     <div class="media">
 		<form action="result.php" method="get">
-			<p class="little">Location</p><br>
-			<input type="text" name="location">
+			<p class="little">Location</p>
+			<input type="text" name="location"><br>
 			
-			<p class="little">Vehicle</p><br>
-			<input type="text" name="vehicle">
+			<p class="little">Vehicle</p>
+			<input type="text" name="vehicle"><br>
 			
-			<p class="little">Customer</p><br>
-			<input type="text" name="customer">
+			<p class="little">Customer</p>
+			<input type="text" name="customer"><br>
 			
-			<p class="little">Salesperson</p><br>
-			<input type="text" name="salesperson">
+			<p class="little">Salesperson</p>
+			<input type="text" name="salesperson"><br>
 			
-			<p class="little">Sale</p><br>
-			<input type="text" name="sale">
+			<p class="little">Sale</p>
+			<input type="text" name="sale"><br>
 			
-			<p class="little">Visit</p><br>
-			<input type="text" name="visit">
+			<p class="little">Visit</p>
+			<input type="text" name="visit"><br>
 			
 			<br>
 			<input type="submit" value="Search" class="link_button">
