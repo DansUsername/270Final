@@ -149,6 +149,7 @@ div.block{
 /*description:defines appearance for titles of all blocks*/
 .block_title{
     letter-spacing:6px;
+	text-align:left;
 }
 /*description:centers all the content of each block but not the title or block information*/
 .media{
