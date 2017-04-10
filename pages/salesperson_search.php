@@ -35,7 +35,7 @@
 			<input type="text" name="visit"><br>
 			
 			<br>
-			<input type="submit" value="Search" class="link_button">
+			<input type="submit" value="Search" class="link_button little">
 		</form>
 	</div>
 </div>
