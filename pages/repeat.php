@@ -40,7 +40,7 @@
 			'<div class="navigation">
 			</div>
 			<!---description:displays avatar photo--->
-			<a href="index.html">
+			<a href="index.php">
 				<img src="images/avatar.jpg" id="avatar_large" class="circle"> 
 			</a>
 
