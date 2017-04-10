@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="script" type="php" href="repeater.php">
+	<?php 
+		include 'repeat.php';
+		printHead();
+	?>
 </head>
-	
 <body>
-	
-<?php
-include'test/newfile.php';
-?>
+<header>
+	<?php 
+		printHeader();
+	?>
+</header>
 	
 <div class="block">
 	<p class="block_title big">Salesperson Search</p>
@@ -19,6 +22,10 @@ include'test/newfile.php';
 	</div>
 </div>
 
-<?php include 'footer.php';?>
+<footer>
+	<?php
+		printFooter();
+	?>
+</footer>
 </body>
 </html>
