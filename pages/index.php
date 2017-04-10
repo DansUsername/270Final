@@ -12,7 +12,6 @@
 		printHeader();
 	?>
 </header>
-
 <div class="block">
 	<p class="block_title big">This is our home page. </p>
     <div class="media">

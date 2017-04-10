@@ -11,8 +11,7 @@
 	<?php 
 		printHeader();
 	?>
-</header>
-	
+</header>	
 <div class="block">
 	<p class="block_title big">Salesperson Search</p>
     <div class="media">
@@ -40,7 +39,6 @@
 		</form>
 	</div>
 </div>
-
 <footer>
 	<?php
 		printFooter();
