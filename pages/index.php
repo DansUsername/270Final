@@ -41,6 +41,7 @@
 		printFooter();
 	?>
 	<!---David--->
+    <!-- Dan again -->
 </footer>
 </body>
 </html>
