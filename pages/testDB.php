@@ -22,4 +22,4 @@
 	} else{
 		echo "There are no results.";
 	}
-?>
+1?>
