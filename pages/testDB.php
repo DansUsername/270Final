@@ -12,9 +12,9 @@
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	} 
-	echo "Connected successfully";
+	echo "Connected successfully<br>";
 
-	$sql = "select model from vehicle";
+	$sql = "select * from vehicle";
 	$result = $conn->query($sql);
 
 	if($result->num_rows > 0) {
@@ -22,4 +22,8 @@
 	} else{
 		echo "There are no results.";
 	}
+	echo "<br>";
+
+	$sql = "select * from vehicle";
+	echo $sql;
 1?>
