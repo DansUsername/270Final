@@ -41,11 +41,8 @@
 		printFooter();
 	?>
 	<!---David--->
-<<<<<<< HEAD
     <!-- Dan again -->
 	<!---David again--->
-=======
->>>>>>> parent of fa2dfd8... Double checked
 </footer>
 </body>
 </html>
