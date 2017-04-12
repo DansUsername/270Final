@@ -36,7 +36,6 @@
 		</p>
 	</div>
 </div>
-<!---David--->
 <footer>
 	<?php
 		printFooter();
