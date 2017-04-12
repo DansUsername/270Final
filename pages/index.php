@@ -40,7 +40,7 @@
 	<?php
 		printFooter();
 	?>
-	<!-- Dan -->
+	<!---David--->
 </footer>
 </body>
 </html>
