@@ -22,7 +22,7 @@
 	<?php
 		printFooter();
 	?>
-
+<!-- Dan -->
 </footer>
 </body>
 </html>
