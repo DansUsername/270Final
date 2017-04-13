@@ -29,4 +29,3 @@
 	echo "The location is " . $_GET["location"] . "<br>";
 	echo "The vehicle is " . $_GET["vehicle"] . "<br>";
 ?>
-<!-- Dan -->
