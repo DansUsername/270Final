@@ -17,10 +17,6 @@
 				<p class="title">
 					<a href="index.php">Acme Car Dealership</a>
 				</p>
-				<!---description:displays avatar photo if title is disabled--->
-				<a href="index.php">
-					<img src="images/avatar.jpg" id="avatar_large" class="circle">        
-				</a>
 				<!---description:shows sites description--->
 				<p class="description">We sell a bunch of cars.</p>
 			</div>

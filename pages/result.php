@@ -28,4 +28,8 @@
 	//Items from form
 	echo "The location is " . $_GET["location"] . "<br>";
 	echo "The vehicle is " . $_GET["vehicle"] . "<br>";
+	echo "The customer is " . $_GET["customer"] . "<br>";
+	echo "The salesperson is " . $_GET["salesperson"] . "<br>";
+	echo "The sale is " . $_GET["sale"] . "<br>";
+	echo "The visit is " . $_GET["visit"] . "<br>";
 ?>
