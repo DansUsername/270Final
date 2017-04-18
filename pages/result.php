@@ -22,14 +22,24 @@
 	}
 	echo "<br>";
 
-	$sql = "select * from vehicle<br>";
+	$sql = "select model from vehicle";
 	$result = $conn->query($sql);
 	echo $sql;	
 	//Items from form
-	echo "The location is " . $_GET["location"] . "<br>";
+	echo "<br>The location is " . $_GET["location"] . "<br>";
 	echo "The vehicle is " . $_GET["vehicle"] . "<br>";
 	echo "The customer is " . $_GET["customer"] . "<br>";
 	echo "The salesperson is " . $_GET["salesperson"] . "<br>";
 	echo "The sale is " . $_GET["sale"] . "<br>";
 	echo "The visit is " . $_GET["visit"] . "<br>";
+
+	if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo $row['model'] . "<br>";
+    }
+	} else {
+    	echo "0 results";
+	}
+	$conn->close();
 ?>
