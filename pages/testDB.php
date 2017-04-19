@@ -1,3 +1,4 @@
+//This is now all in result.php
 <?php
 	$servername = "localhost";
 	$username = "root";
